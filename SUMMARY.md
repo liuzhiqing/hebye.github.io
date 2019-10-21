@@ -2,7 +2,9 @@
 
 * [简介](README.md)
 * [第一章](first.md)
-    * [01小节](first/01.md)
-    * [02小节](first/02.md)
+    * [安装 git](first/install.md)
+    * [配置 git](first/config.md)
 * [第二章](second.md)
+    * [描述 git](second/about.md)
+    * [高级 git](second/ad.md)
 

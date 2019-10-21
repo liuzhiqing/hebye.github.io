@@ -22,7 +22,8 @@
 		"github",
 		"pageview-count",
 		"mermaid-gb3",
-		"-lunr", "-search",
+		"-lunr", 
+		"-search",
 		"search-plus",
 		"splitter",
 		"-sharing",
@@ -30,8 +31,12 @@
 		"expandable-chapters-small",
 		"anchor-navigation-ex",
 		"copy-code-button",
+		"edit-link",
+		"copy-code-button",
 		"chart",
-		"favicon-plus"
+		"favicon-plus",
+		"tbfed-pagefooter",
+		"donate"
 	],
 	"pluginsConfig": {
 		"github": {
@@ -79,5 +84,14 @@
 		"button": "捐赠",
 		"alipayText": "支付宝",
 		"wechatText": "微信"
-	}
+	},
+	"plugins": [
+		"advanced-emoji"	
+	],
+	"tbfed-pagefooter": {
+            "copyright": "&copy snowdreams1006",
+            "modify_label": "文件修订时间: ",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+
 }
