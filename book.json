@@ -32,7 +32,8 @@
 	"donate",
 	"tbfed-pagefooter",
 	"mygitalk",
-	"copyright"
+	"copyright",
+	"readmore"
     ],
     "pluginsConfig": {
         "github": {
@@ -108,7 +109,13 @@
 	"site": "https://hebye.github.io/",
 	"author": "米米论坛",
 	"website":"米米论坛",
-	"image": "https://hebye.github.io/snowdreams1006-wechat-open.png" 
+	"image": "https://snowdreams1006.github.io/snowdreams1006-wechat-open.png" 
+	},
+	"readmore":{
+	"blogId": "15702-1569305559839-744",
+	"name": "米米论坛",
+	"qrcode": "https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg",
+	"keyword": "vip" 
 	}
   }
 }
