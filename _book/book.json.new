@@ -1,0 +1,83 @@
+{
+    "title": "米米论坛",
+    "author": "mimi",
+    "description": "米米论坛,hebye搭建的 Gitbook 个人博客,详情请访问 https://hebye.github.io/",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "links": {
+	"sidebar": {"我的网站": "https://hebye.com/"
+	}
+	},	
+    "plugins": [
+	"github",
+        "toc",
+        "pageview-count",
+        "mermaid-gb3",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "splitter",
+        "-sharing",
+        "sharing-plus",
+        "expandable-chapters-small",
+        "anchor-navigation-ex",
+        "edit-link",
+        "copy-code-button",
+        "chart",
+        "favicon-custom",
+        "github-buttons",
+        "advanced-emoji",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "github": {
+			"url": "https://github.com/hebye/hebye.github.io"
+		},
+        "favicon": "favicon.ico",
+        "appleTouchIconPrecomposed152": "apple-touch-icon-precomposed-152.png",
+        "toc": {
+            "addClass": true,
+            "className": "toc"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "hebye",
+                "repo": "hebye.github.io",
+                "type": "star",
+                "size": "small"
+            }]
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper", "linkedin",
+                "pocket", "stumbleupon"
+            ]
+        },
+        "edit-link": {
+            "base": "https://github.com/hebye/hebye.github.io/blob/master",
+            "label": "编辑本页"
+        },
+        "chart": {
+            "type": "c3"
+        }
+	}
+}

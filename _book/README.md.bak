@@ -1,0 +1,15 @@
+# Introduction
+欢迎访问 `gitbook-demo`首页
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="http://cdn.jsdelivr.net/npm/gital@1/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+var gitalk = new Gitalk({
+ "clientID": "31081177a5fc6526a297", 
+ "clientSecret": "0d5d8e2719058599d9005ddcecdc7c238675738b",
+ "repo": "hebye.github.io",
+ "owner": "hebye",
+ "admin": ["hebye"],
+ "id": location.pathname,
+ "distractionFreeMode": false
+ });
+ gitalk.render("gitalk-container");
