@@ -31,7 +31,8 @@
         "tbfed-pagefooter",
 	"donate",
 	"tbfed-pagefooter",
-	"mygitalk"
+	"mygitalk",
+	"copyright"
     ],
     "pluginsConfig": {
         "github": {
@@ -102,6 +103,12 @@
             "owner": "hebye",
             "admin": ["hebye"],
             "distractionFreeMode": false
-        }
+        },
+	 "copyright": {
+	"site": "https://hebye.github.io/",
+	"author": "米米论坛",
+	"website":"米米论坛",
+	"image": "https://hebye.github.io/snowdreams1006-wechat-open.png" 
+	}
   }
 }
